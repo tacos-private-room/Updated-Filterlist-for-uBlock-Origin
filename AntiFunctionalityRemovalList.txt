@@ -1,0 +1,87 @@
+﻿[Adblock Plus 3.13]
+! Title: 🧗 Anti-'Functionality removal' List
+! Version: 14June2025v1-Beta
+! Expires: 9 days
+! Description: This list aims to combat some sites' attempts to make it impossible to copy text, right-click on pages, open the F12 menu, create fake loading times, or who otherwise obstruct people from features that they should be perfectly in their rights to have access to.
+! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md#-english
+
+! 📛 = This category requires using uBlock Origin or AdGuard for the best results.
+
+! Copypaste hĳackers 📛
+bloombergquint.com##+js(acis, document.oncopy)
+bloombergquint.com##+js(aopr, getSelection)
+delfi.lt##+js(aeld, copy)
+!!!||deepl.com/js/docTrans-react.chunk. (https://github.com/AdguardTeam/AdguardFilters/issues/119645)
+!#if !adguard
+||www.15min.lt/naujiena^$inline-script
+!#endif
+!#if adguard
+! https://github.com/AdguardTeam/FiltersRegistry/issues/683
+!+ NOT_OPTIMIZED
+||www.15min.lt/naujiena^$csp=script-src 'self' 'unsafe-eval' http: https:
+!#endif
+
+! Prevents sites from removing the ability to right-click on pages
+! https://www•patheos•com/blogs/godzooks
+/wp-content/plugins/disable-right-click-and-content-copy-protection^
+! From "Frellwit's Swedish Filter"
+/plugins/wp-content-copy-protection^
+/plugins/wp-copy-protect-with-color-design^
+! https://github.com/DandelionSprout/adfilt/pull/1045
+/secure-copy-content-protection-public.css^$css
+
+! Prevents sites from removing the ability to right-click on images 📛
+! https://www•matprat•no/oppskrifter/kos/koreansk-beef-bulgogi/ (29/03/2024)
+*,~tumblr.com,~deviantart.com,~facebook.com,~facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##section:remove-class(image-copy-protection)
+
+! Prevents sites from removing the ability to copy text 📛
+respublika.lt#?#[class^=com_]:style(user-select: unset !important; -webkit-user-select: unset !important; -moz-user-select: unset !important)
+hirunews.lk,ada.lk#?#body:style(user-select: unset !important; -webkit-user-select: unset !important; -moz-user-select: unset !important)
+||laisvadienis.lt^$inline-script
+! https://github.com/DandelionSprout/adfilt/pull/1045
+niskevesti.rs##^script:has-text(ays_tooltip)
+niskevesti.rs##:not(input):not(textarea)::selection:style(background-color: #B4D5FFA0 !important)
+!#if !env_firefox
+niskevesti.rs##style:not([class],[id]):remove()
+||niskevesti.rs^$inline-script
+!#endif
+! https://jarloworks•com/hq-previews/ (NSFW)
+jarloworks.com##+js(acis, show_alert)
+jarloworks.com##*:style(user-select:auto!important;-moz-user-select:auto!important;-wekbit-user-select:auto!important)
+
+! Prevents sites from disabling DevTools keyboard shortcuts 📛
+dropgalaxy.*##+js(acs, document.onkeydown)
+
+! Defuse anti-debugging measures in sites 📛
+||jsdelivr.net/npm/disable-devtool$script
+dropgalaxy.*##+js(acs, isWesternEuropeanTimezone)
+
+! Removes strange blurring of comments on non-Nordic sites 📛
+respublika.lt#?##news_comment_container:style(filter: none !important)
+
+! Prevents sites from forcibly always opening pages in new tabs 📛
+! https://github.com/EasyList-Lithuania/easylist_lithuania/issues/16
+autoplius.lt##+js(ra, target, [target="_blank"], stay)
+
+! Fake loading screens
+hackintoshshop.com##body > div:first-of-type[style^=background-color][id]
+! 🇳🇴 (From "Nordic Filters")
+nettavisen.no###topover-loader
+nettavisen.no###topover
+! 🇳🇴 adressaNO (02/12/2020)
+||collector.schibsted.io^$third-party
+! https://sandberg•world/en-no/product/Wireless-Mouse-Pro (25/12/2022); mppdainikCOM (Unknown date)
+~ru###preloader
+! metropoleshoppingmontecarloCOM (27/01/2025)
+! (lamodaRU; https://github.com/AdguardTeam/AdguardFilters/issues/202815; easier than handling future non-VPN-able Russian sites)
+~ru##div.preloader
+! 🇸🇷 sunSR
+##app-loading-screen
+! 🇫🇴 EldingFO checkout
+##.loading-mask:not(html,body)
+! 🇯🇵 sunflower•co•jp (14/06/2025)
+##div#loading
+
+! Prevents Google from changing normal links in image searches to their tracking links whenever they're clicked on.
+! I was only able to get this to work with the 2 links below the main image in the rightside drawer, and not on the main image itself. Trust me, I tried.
+www.google.*,ipv6.google.com##a[data-ved][jsaction*="focus:trigger"]:remove-attr(jsaction)

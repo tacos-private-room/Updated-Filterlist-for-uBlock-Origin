@@ -1,0 +1,9 @@
+﻿
+! Title: Conversion of AdGuard Services Lists — Blaze
+
+||blaze.com^$all
+||blaze.bet^$all
+||blazecareers.com^$all
+||blaze.com.br^$all
+
+

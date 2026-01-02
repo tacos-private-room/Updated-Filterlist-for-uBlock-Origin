@@ -1,0 +1,206 @@
+! This is an extension file, not an independent list.
+! Extension file's version: 10May2025v1-Extension
+
+! Experts Exchange 📛📠
+experts-exchange.com##.accepted.answer:style(display: block !important)
+experts-exchange.com##.solutionIntertitialWrapper.body
+experts-exchange.com##.bg3.interceptBackgroundBlocker.interceptContainer
+
+! Nĳie ↪️📛📠 (NSFW)
+nijie.info##.ngtag.mozamoza:style(-webkit-filter: none !important)
+
+! StudyCOM (Text articles only) 📛📠
+! Makes text lessons fully readable
+study.com###articleMain > div[class=hidden]:style(visibility: visible !important; display: block !important)
+study.com##.faded-content::after
+! Makes the flashcard tables fully visible
+study.com##.paywall:style(display: table !important)
+study.com##.paywall::after
+
+! HowToLucid 📛📠
+howtolucid.com##.onp-sl-blur-area:style(filter: none !important)
+
+! Lyd og Billede 📛📠
+lydogbillede.dk,lydogbilde.no,ljudochbild.se###content:style(min-height:2000px)
+lydogbillede.dk,lydogbilde.no,ljudochbild.se##.postteas:style(overflow: visible !important)
+lydogbillede.dk,lydogbilde.no,ljudochbild.se##.fader
+lydogbillede.dk,lydogbilde.no,ljudochbild.se##.readwhole
+lydogbillede.dk,lydogbilde.no,ljudochbild.se##.loginabo
+lydogbillede.dk,lydogbilde.no,ljudochbild.se##.aboboxer
+lydogbillede.dk,lydogbilde.no,ljudochbild.se##.aboboxerbold
+lydogbillede.dk,lydogbilde.no,ljudochbild.se##.abolistbox
+lydogbillede.dk,lydogbilde.no,ljudochbild.se##.abomainbox
+lydogbillede.dk,lydogbilde.no,ljudochbild.se##.aboinfobunn
+lydogbillede.dk,lydogbilde.no,ljudochbild.se##.hidefromgp
+
+! Futurestud.io Moonshoot 📛📠
+futurestud.io##.spoiler:style(filter: none !important; -webkit-filter: none !important)
+futurestud.io##.fs-background.text-center.aside-info
+
+! eNotes 📛📠
+! https://www•enotes•com/homework-help/three-enlightenmet-ideas-used-declaration-471209
+enotes.com##.hh-box__answer__text:style(filter: none !important; -webkit-filter: none !important; color: inherit !important; text-shadow: none !important)
+
+! Rugby World 📛
+! Removes a prompt to sign up to a newsletter to read articles
+! https://www•rugbyworld•com/tournaments/rugby-world-cup-2019/rugby-world-cup-tv-coverage-94637
+rugbyworld.com##.entry-content > div[style*="height:"]:style(height: 100% !important)
+rugbyworld.com##div[style*=linear-gradient]
+rugbyworld.com###olay-frame
+
+! Vanity Fair 📛
+! Makes previews of articles readable, even when you've run out of articles 📠
+! https://www.vanityfair.com/style/2019/07/boris-johnson-the-queen-meeting-purse
+vanityfair.com##p:style(color: #231f20 !important)
+vanityfair.com##.article--blurred a:style(color: #e7131a !important; text-shadow: none !important)
+vanityfair.com##.article--blurred strong:style(color: unset !important; text-shadow: none !important)
+vanityfair.com##.article--blurred span:style(color: #231f20 !important; text-shadow: none !important)
+
+! GTrusted
+gtrusted.com##.ui-front
+gtrusted.com##body[class]:style(overflow: unset !important)
+
+! Fantia ↪️
+fantia.jp##.img-blurred:style(filter: none !important; -webkit-filter: none !important)
+fantia.jp##.post-thumbnail-message
+
+! Scribd
+! Partially unhides long textbooks (Many pages are still hard-hid serverside)
+! https://www.scribd.com/document/445250678/DarkLion-HOST4
+scribd.com##.outer_page .a:style(color: black !important; text-shadow: none !important)
+scribd.com##.promo
+! https://www.scribd.com/document/53745954/The-Sims-3-Late-Night-Official-Game-guide-Unleashed (17/02/2024)
+scribd.com##.promo_div
+scribd.com##.absimg:style(opacity: unset !important)
+
+! Amino
+!! Aims to show the full comments on posts
+aminoapps.com##.content:style(max-height: none !important)
+aminoapps.com##.height-toggle
+
+! Chronicle of Higher Education
+chronicle.com##.bcpNotificationBar
+chronicle.com##html:style(overflow: auto !important; height: 100% !important)
+chronicle.com##.Page-body:style(overflow: auto !important; height: 100% !important)
+
+! Twitter support was removed in early October 2023, due to its owner becoming a white supremacist and a Tucker Carlson terrorism collaborator; see https://new.reddit.com/r/insanepeoplefacebook/comments/170jdls/it_is_to_early_in_the_morning_for_this/
+
+! Facebook
+! Note 9th of March 2025: Various changes to Facebook's login systems, video pages, etc., means that all Facebook entries should/must be rewritten from scratch.
+!! Reduces the background opacity of the login overlay
+!!!www.facebook.com,www.beta.facebook.com,b-www.facebook.com,secure.facebook.com,pixel.facebook.com,error.facebook.com##div[class^=__fb-][class*="-mode "] > div[class*=" "]:first-of-type:nth-last-of-type(2) > div[class]:only-of-type:style(min-height: 0 !important; height: 0 !important)
+!!!www.facebook.com,www.beta.facebook.com,b-www.facebook.com,secure.facebook.com,pixel.facebook.com,error.facebook.com##div[class^=__fb-][class*="-mode "] > div[class*=" "]:first-of-type:nth-last-of-type(2) > div[class]:only-of-type > div[class]:first-of-type:style(height: 0 !important)
+!! Aims to prevent the bottom bar
+!!!facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion,~touch.facebook.com,~mtouch.facebook.com,~x.facebook.com,~iphone.facebook.com,~m.facebook.com,~touch.beta.facebook.com,~mtouch.beta.facebook.com,~x.beta.facebook.com,~iphone.beta.facebook.com,~m.beta.facebook.com,~b-m.facebook.com,~touch.facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion,~mtouch.facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion,~x.facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion,~iphone.facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion,~m.facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion,~b-m.facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion,~mbasic.facebook.com,~d.facebook.com,~free.facebook.com,~0.facebook.com,~mbasic.facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion,~d.facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion,~free.facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion,~0.facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##div[role=progressbar] ~ div:not([class],[id],[role],[style]):has(> div[data-nosnippet]):style(visibility: hidden !important)
+
+! SegmentFault
+!! https://github.com/DandelionSprout/adfilt/issues/581
+segmentfault.com##.modal:has-text(你知道吗？)
+segmentfault.com##.modal-backdrop:has(~ .modal:has-text(你知道吗？))
+segmentfault.com##.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
+segmentfault.com##.modal-open [style]:is([data-padding-right], [data-margin-right]):style(padding-right: 0 !important; margin-right: 0 !important;)
+
+! Tumblr
+!! Uncloseable prompt saying "We know you were really enjoying yourself, but we're going to need a little more info." (31/05/2022)
+!!!tumblr.com##style:has-text(/^body /):remove()
+tumblr.com##style:has-text(/^body /):has(use[href*=logo-tumblr]):remove()
+!!! tumblr.com#?##glass-container:has(use[href*=logo-tumblr]) - https://github.com/DandelionSprout/adfilt/issues/845
+!!! tumblr.com#?##glass-container:has(use[href$=_google-logo]) - https://github.com/DandelionSprout/adfilt/issues/845
+! ([role=dialog] is needed to make the ••• buttons work)
+tumblr.com###glass-container > div[role=dialog]:has(p + p):has(a[href^="/auth/google?"])
+!! The same prompt 6 months later:
+tumblr.com#?##glass-container > div[role^=dialog]:has(#g-recaptcha):has(a[href*=terms-of-service])
+!! https://github.com/DandelionSprout/adfilt/commit/db0401c254e7064a9048e1aa52326a080ed97107#commitcomment-111160729 + https://github.com/DandelionSprout/adfilt/discussions/642 + The Trending page's numbered top list tries to enforce logins
+tumblr.com##figure[class]:remove-attr(/^data-login-wall-/)
+tumblr.com##a[class]:remove-attr(/^data-login-wall-/)
+tumblr.com##a[class]:remove-attr(/^data-login-wall-/)
+||assets.tumblr.com/pop/js/modern/async-login-wall$script,domain=www.tumblr.com
+!! Floaty on bottom
+||tumblr.com^$removeparam=/^source=login_/
+!!!tumblr.com##div[style^="background:#7c5cff;"]:upward(1) (Began breaking search results in late August)
+! Ensures the ••• buttons and thus also "Copy Link" work properly when scrolling through search results
+!!!||tumblr.com/api/v*/timeline/search?limit=20&$removeparam=limit (Various testing)
+
+! The Epoch Times USA
+!! https://github.com/DandelionSprout/adfilt/issues/603
+theepochtimes.com##.modal__overlay
+theepochtimes.com##body.single-post:style(overflow: unset !important)
+
+! StuDocu
+studocu.com##.page-content:style(filter: none !important; user-select: unset !important)
+studocu.com###document-wrapper > div:first-of-type:not([style])
+
+! New New Reddit's NSFW blur method thing (Sadly won't show the images, but will seemingly show text and comments; 25/10/2023)
+reddit.com##[bundlename=desktop_rpl_nsfw_blocking_modal]
+reddit.com##div[role=presentation][style*=filter]:style(filter: none !important)
+
+! https://github.com/DandelionSprout/adfilt/issues/1004
+! https://github.com/DandelionSprout/adfilt/issues/1011
+www.instagram.com##[id^=mount]:has(a[class][href*="/accounts/login/?"]) ~ div[class*=" "][style^=--][style*="255"]:style(scroll-behavior: unset !important; overflow: scroll !important)
+www.instagram.com##[id^=mount]:has(a[class][href*="/accounts/login/?"]) ~ div[class*=" "][style^=--][style*="255"]
+
+! https://www•the-inquisitor-magazine•com/swedish-noc-on-dubious-2030-winter-games-decisions/
+the-inquisitor-magazine.com##.c-content--has-shadow:style(mask-image: none !important; -webkit-mask-image: none !important)
+
+! https://github.com/DandelionSprout/adfilt/issues/1055
+vk.com##+js(set-constant, window.Unauthorized2, undefined)
+
+! Substack (https://github.com/DandelionSprout/adfilt/issues/1056)
+substack.com,microsoftsecurityinsights.com,chipstrat.com##body:style(cursor:initial!important)
+substack.com,microsoftsecurityinsights.com,chipstrat.com##body #main:style(visibility:visible!important)
+
+! https://jarloworks•com/hq-previews/ (NSFW)
+jarloworks.com##+js(acis, show_alert)
+jarloworks.com##*:style(user-select:auto!important;-moz-user-select:auto!important;-wekbit-user-select:auto!important)
+
+! https://github.com/DandelionSprout/adfilt/issues/1121
+instacart.com##.ReactModalPortal > div.AuthModal__Overlay:not(:has(button[aria-label="Close modal"])):style(display: none !important)
+instacart.com##body.body--auth-modal-open:style(overflow: visible !important)
+
+! https://github.com/DandelionSprout/adfilt/issues/1130
+chatgpt.com##+js(set-local-storage-item, oai/apps/hasSeenNoAuthImagegenNux, true)
+chatgpt.com##+js(trusted-set-cookie, oai-allow-ne, true, ,, domain, .chatgpt.com)
+
+! ——————————————————————————————————————————————————————————————————————
+
+! Entries below are fixed in other lists that are included in uBO as of the 2nd of March 2019, but are also in this list to serve minimal-setup users.
+
+!! Removing the blurring of random Pinterest images ↪️📛 (Fixed in "uBlock Filters - Annoyances", except for the Redirector portion of it)
+pinterest.*##div[style^="filter:"]:style(filter: none !important)
+
+! Quora on phone browsers 📛 (Fixed in "uBlock Filters - Annoyances")
+quora.com##.new_signup_dialog.modal_bg
+quora.com##._DialogSignupForm
+quora.com##.signup_wall_prevent_scroll .PageWrapper:style(filter: none !important)
+quora.com##.signup_wall_prevent_scroll:style(position: unset !important)
+
+! New York Times Cooking 📛 (Fixed in "AdGuard Annoyances filter")
+cooking.nytimes.com##.nytc---modal-window---isShown:not(:has(.nytc---largepicturemodal---contentBody > .nytc---x---x.nytc---largepicturemodal---xBtn[role=button], .nytc---grocerylistmodal---groceryListContentContainer))
+cooking.nytimes.com##div[class*=modal_show_]:not(:has(button[aria-label=close], div[class*=grocerylist_listContainer]))
+
+! Make all Quizlet cards show up on the bottom feed 📛 (Fixed in "uBlock Filters - Annoyances")
+quizlet.com##.SetPageTerm:style(display: block !important)
+
+! Seeking Alphaᵃ 📛 (Fixed in "uBlock Filters - Annoyances")
+! Makes certain shareholder meeting transcripts entirely readable on a single page, thus bypassing a block on going past page 2 or using the "Single page view" button without logging in.
+seekingalpha.com##.in.fade.modal
+seekingalpha.com##.modal-dialog
+seekingalpha.com##.p:style(display: block !important)
+seekingalpha.com##.blured:style(opacity: 1.0 !important)
+seekingalpha.com##html[lang] > body:style(overflow: auto !important;)
+
+! BookBub (Fixed in "uBlock Filters - Annoyances") 📛
+!! Makes it possible to read all entries in their most popular blog articles
+bookbub.com##.post-section:style(filter: none !important; -webkit-filter: none !important; pointer-events: all !important)
+bookbub.com##.blur.signup-gate
+
+! Zulily (Fixed in "uBlock Filters - Annoyances") 📛
+zulily.com##+js(std, loginModal, 500)
+
+! Tumblr (Fixed in "uBlock Filters - Annoyances") 📛
+! Makes the bottom image row of tag-searches not cut oﬀ when not logged in
+tumblr.com##.posts:style(margin-bottom: 0 !important)
+
+! Reverso Context (Fixed in "uBlock Filters - Annoyances") 📛📠
+context.reverso.net##.blocked:style(filter: none !important;)
+context.reverso.net###blocked-results-banner

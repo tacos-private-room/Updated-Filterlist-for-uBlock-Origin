@@ -1,0 +1,11 @@
+﻿
+! Title: Conversion of AdGuard Services Lists — Flickr
+
+||flic.kr^$all
+||flickr.com^$all
+||flickr.net^$all
+||flickrprints.com^$all
+||flickrpro.com^$all
+||staticflickr.com^$all
+
+

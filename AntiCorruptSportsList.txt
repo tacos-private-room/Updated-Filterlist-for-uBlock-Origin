@@ -1,0 +1,146 @@
+﻿! Title: 🤾🏼‍♂️ Anti-'Corrupt sports' List
+! Version: 07December2025v1-Alpha
+! Expires: 3 days
+! Description: This list aims to remove news articles about sports competitions that are laughably corrupt and money-hoarding, especially those that are in the pockets of the homicidal, anti-atheist Saudi Arabian royal house.
+! Removes: Various football leagues (UEFA Champions League, AFC Champions League, Premier League, La Liga, Serie A, Bundesliga, Paris Saint Germain, Saudi Pro League), all major golf competitions, Dakar Rally, Saudi Arabian Grand Prix, 2026 FIFA World Cup
+! To-do: Add more relevant newssites
+
+!#if !env_mv3
+!#if !ext_ubol
+!#if !adguard_ext_android_cb
+adressa.no,nrk.no,dr.dk,tv2.dk,ekstrabladet.dk,vg.no,dagbladet.no,theguardian.com,bbc.*,tv2.no,www-nrk-no.translate.goog,www-tv2-no.translate.goog##a[href*=haaland i]:not([href*=bodo i],[href*=glimt i],[href*=knutsen i],[href*=pafos i],[href*=aspmyra i],[href*=haikin i],[href*=viking i])
+adressa.no,nrk.no,dr.dk,tv2.dk,ekstrabladet.dk,vg.no,dagbladet.no,theguardian.com,bbc.*,www-nrk-no.translate.goog##a[href*=mbappe i]
+adressa.no,nrk.no,dr.dk,tv2.dk,ekstrabladet.dk,vg.no,dagbladet.no,theguardian.com,bbc.*,tv2.no,www-nrk-no.translate.goog,www-tv2-no.translate.goog##a[href*=manchester-city i]:not([href*=bodo i],[href*=glimt i],[href*=knutsen i],[href*=pafos i],[href*=aspmyra i],[href*=haikin i],[href*=viking i])
+adressa.no,nrk.no,dr.dk,tv2.dk,ekstrabladet.dk,vg.no,dagbladet.no,theguardian.com,bbc.*,tv2.no,www-nrk-no.translate.goog,www-tv2-no.translate.goog##a[href*=real-madrid i]
+adressa.no,nrk.no,dr.dk,tv2.dk,ekstrabladet.dk,vg.no,dagbladet.no,theguardian.com,bbc.*,www-nrk-no.translate.goog##a[href*=tico-madrid i]:not([href*=bodo i],[href*=glimt i],[href*=knutsen i],[href*=pafos i],[href*=aspmyra i],[href*=haikin i],[href*=viking i])
+adressa.no,nrk.no,dr.dk,tv2.dk,ekstrabladet.dk,vg.no,dagbladet.no,theguardian.com,bbc.*,tv2.no,www-nrk-no.translate.goog,www-tv2-no.translate.goog##a[href*=manchester-united i]
+adressa.no,nrk.no,dr.dk,tv2.dk,ekstrabladet.dk,vg.no,dagbladet.no,theguardian.com,bbc.*,www-nrk-no.translate.goog##a[href*=uefa i][href*=super-cup i]
+adressa.no,nrk.no,dr.dk,tv2.dk,ekstrabladet.dk,vg.no,dagbladet.no,theguardian.com,bbc.*,tv2.no,www-nrk-no.translate.goog,www-tv2-no.translate.goog##a[href*=bayern-mun i]
+adressa.no,nrk.no,dr.dk,tv2.dk,ekstrabladet.dk,vg.no,dagbladet.no,theguardian.com,bbc.*,www-nrk-no.translate.goog##a[href*=premier-league i]
+adressa.no,nrk.no,dr.dk,tv2.dk,ekstrabladet.dk,vg.no,dagbladet.no,theguardian.com,bbc.*,www-nrk-no.translate.goog##a[href*=premierleague i]
+adressa.no,nrk.no,dr.dk,tv2.dk,ekstrabladet.dk,vg.no,dagbladet.no,theguardian.com,bbc.*,www-nrk-no.translate.goog##a[href*=-la-liga- i]
+adressa.no,nrk.no,dr.dk,tv2.dk,ekstrabladet.dk,vg.no,dagbladet.no,theguardian.com,bbc.*,www-nrk-no.translate.goog##a[href*=fc-barcelona i]
+adressa.no,nrk.no,dr.dk,tv2.dk,ekstrabladet.dk,vg.no,dagbladet.no,theguardian.com,bbc.*,www-nrk-no.translate.goog##a[href*=champions-league i]:not([href*=ihf i],[href*=handball i],[href*=molde i],[href*=bodo i],[href*=glimt i],[href*=knutsen i],[href*=pafos i],[href*=aspmyra i],[href*=kolstad i],[href*=haikin i],[href*=viking i])
+adressa.no,nrk.no,dr.dk,tv2.dk,ekstrabladet.dk,vg.no,dagbladet.no,theguardian.com,bbc.*,www-nrk-no.translate.goog##a[href*=championsleague i]:not([href*=ihf i],[href*=handball i],[href*=molde i],[href*=bodo i],[href*=glimt i],[href*=knutsen i],[href*=pafos i],[href*=aspmyra i],[href*=kolstad i],[href*=haikin i],[href*=viking i])
+adressa.no,nrk.no,dr.dk,tv2.dk,ekstrabladet.dk,vg.no,dagbladet.no,theguardian.com,bbc.*,www-nrk-no.translate.goog##a[href*=everton i]
+adressa.no,nrk.no,dr.dk,tv2.dk,ekstrabladet.dk,vg.no,dagbladet.no,theguardian.com,bbc.*,www-nrk-no.translate.goog##a[href*=wolverhampton i]
+adressa.no,nrk.no,dr.dk,tv2.dk,ekstrabladet.dk,vg.no,dagbladet.no,theguardian.com,bbc.*,tv2.no,www-nrk-no.translate.goog,www-tv2-no.translate.goog##a[href*=man-city i]:not([href*=bodo i],[href*=glimt i],[href*=knutsen i],[href*=pafos i],[href*=aspmyra i])
+adressa.no,nrk.no,dr.dk,tv2.dk,ekstrabladet.dk,vg.no,dagbladet.no,theguardian.com,bbc.*,tv2.no,www-nrk-no.translate.goog,www-tv2-no.translate.goog##a[href*=mancity i]:not([href*=bodo i],[href*=glimt i],[href*=knutsen i],[href*=pafos i],[href*=aspmyra i])
+adressa.no,nrk.no,dr.dk,tv2.dk,ekstrabladet.dk,vg.no,dagbladet.no,theguardian.com,bbc.*,www-nrk-no.translate.goog##a[href*=west-ham i]
+adressa.no,nrk.no,dr.dk,tv2.dk,ekstrabladet.dk,vg.no,dagbladet.no,theguardian.com,bbc.*,www-nrk-no.translate.goog##a[href*=mancino i]
+adressa.no,nrk.no,dr.dk,tv2.dk,ekstrabladet.dk,vg.no,dagbladet.no,theguardian.com,bbc.*,www-nrk-no.translate.goog##a[href*=mancini i]
+adressa.no,nrk.no,dr.dk,tv2.dk,ekstrabladet.dk,vg.no,dagbladet.no,theguardian.com,bbc.*,www-nrk-no.translate.goog##a[href*=juventus i]:not([href*=bodo i],[href*=glimt i],[href*=knutsen i],[href*=pafos i],[href*=aspmyra i])
+adressa.no,nrk.no,dr.dk,tv2.dk,ekstrabladet.dk,vg.no,dagbladet.no,theguardian.com,bbc.*,tv2.no,www-nrk-no.translate.goog,www-tv2-no.translate.goog##a[href*=saint-germain i]
+adressa.no,nrk.no,dr.dk,tv2.dk,ekstrabladet.dk,vg.no,dagbladet.no,theguardian.com,bbc.*,tv2.no,www-nrk-no.translate.goog,www-tv2-no.translate.goog##a[href*=st-germain i]
+adressa.no,nrk.no,dr.dk,tv2.dk,ekstrabladet.dk,vg.no,dagbladet.no,theguardian.com,bbc.*,www-nrk-no.translate.goog##a[href*=-borussia i]:not([href*=bodo i],[href*=glimt i],[href*=knutsen i],[href*=pafos i],[href*=aspmyra i],[href*=haikin i],[href*=viking i])
+adressa.no,nrk.no,dr.dk,tv2.dk,ekstrabladet.dk,vg.no,dagbladet.no,theguardian.com,bbc.*,www-nrk-no.translate.goog##a[href*=chelsea i]
+adressa.no,nrk.no,dr.dk,tv2.dk,ekstrabladet.dk,vg.no,dagbladet.no,theguardian.com,bbc.*,www-nrk-no.translate.goog##a[href*=anfield i]
+adressa.no,nrk.no,dr.dk,tv2.dk,ekstrabladet.dk,vg.no,dagbladet.no,theguardian.com,bbc.*,www-nrk-no.translate.goog##a[href*=old-trafford i]:not([href*=cricket i])
+adressa.no,nrk.no,dr.dk,tv2.dk,ekstrabladet.dk,vg.no,dagbladet.no,theguardian.com,bbc.*,www-nrk-no.translate.goog##a[href*=crystal-palace i]
+adressa.no,nrk.no,dr.dk,tv2.dk,ekstrabladet.dk,vg.no,dagbladet.no,theguardian.com,bbc.*,www-nrk-no.translate.goog##a[href*=neymar i]
+adressa.no,nrk.no,dr.dk,tv2.dk,ekstrabladet.dk,vg.no,dagbladet.no,theguardian.com,bbc.*,www-nrk-no.translate.goog##a[href*=-messi- i]
+adressa.no,nrk.no,dr.dk,tv2.dk,ekstrabladet.dk,vg.no,dagbladet.no,theguardian.com,bbc.*,www-nrk-no.translate.goog##a[href*="/messi-" i]
+adressa.no,nrk.no,dr.dk,tv2.dk,ekstrabladet.dk,vg.no,dagbladet.no,theguardian.com,bbc.*,www-nrk-no.translate.goog##a[href*=christiano i]
+adressa.no,nrk.no,dr.dk,tv2.dk,ekstrabladet.dk,vg.no,dagbladet.no,theguardian.com,bbc.*,www-nrk-no.translate.goog##a[href*=-cl- i]:not([href*=bodo i],[href*=glimt i],[href*=knutsen i],[href*=pafos i],[href*=aspmyra i],[href*=haikin i],[href*=viking i])
+adressa.no,nrk.no,dr.dk,tv2.dk,ekstrabladet.dk,vg.no,dagbladet.no,theguardian.com,bbc.*,www-nrk-no.translate.goog##a[href*=guardiola i]
+adressa.no,nrk.no,dr.dk,tv2.dk,ekstrabladet.dk,vg.no,dagbladet.no,theguardian.com,bbc.*,tv2.no,www-nrk-no.translate.goog,www-tv2-no.translate.goog##a[href*=cristiano i]
+adressa.no,nrk.no,dr.dk,tv2.dk,ekstrabladet.dk,vg.no,dagbladet.no,theguardian.com,bbc.*,tv2.no,www-nrk-no.translate.goog,www-tv2-no.translate.goog##a[href*=ronaldo i]
+adressa.no,nrk.no,dr.dk,tv2.dk,ekstrabladet.dk,vg.no,dagbladet.no,theguardian.com,bbc.*,tv2.no,www-nrk-no.translate.goog,www-tv2-no.translate.goog##a[href*=odegaard i]
+adressa.no,nrk.no,dr.dk,tv2.dk,ekstrabladet.dk,vg.no,dagbladet.no,theguardian.com,bbc.*,tv2.no,www-nrk-no.translate.goog,www-tv2-no.translate.goog##a[href*=supercup i]
+adressa.no,nrk.no,dr.dk,tv2.dk,ekstrabladet.dk,vg.no,dagbladet.no,theguardian.com,bbc.*,tv2.no,www-nrk-no.translate.goog,www-tv2-no.translate.goog##a[href*=deadline-day i]
+adressa.no,nrk.no,dr.dk,tv2.dk,ekstrabladet.dk,vg.no,dagbladet.no,theguardian.com,bbc.*,tv2.no,www-nrk-no.translate.goog,www-tv2-no.translate.goog##a[href*=al-nassr i]
+adressa.no,nrk.no,dr.dk,tv2.dk,ekstrabladet.dk,vg.no,dagbladet.no,theguardian.com,bbc.*,tv2.no,www-nrk-no.translate.goog,www-tv2-no.translate.goog##a[href*=ittihad i]
+adressa.no,nrk.no,dr.dk,tv2.dk,ekstrabladet.dk,vg.no,dagbladet.no,theguardian.com,bbc.*,tv2.no,www-nrk-no.translate.goog,www-tv2-no.translate.goog##a[href*=mourinho i]
+adressa.no,nrk.no,dr.dk,tv2.dk,ekstrabladet.dk,vg.no,dagbladet.no,theguardian.com,bbc.*,tv2.no,www-nrk-no.translate.goog,www-tv2-no.translate.goog##a[href*=-ramos- i]
+adressa.no,nrk.no,dr.dk,tv2.dk,ekstrabladet.dk,vg.no,dagbladet.no,theguardian.com,bbc.*,tv2.no,www-nrk-no.translate.goog,www-tv2-no.translate.goog##a[href*=-klopp- i]
+adressa.no,nrk.no,dr.dk,tv2.dk,ekstrabladet.dk,vg.no,dagbladet.no,theguardian.com,bbc.*,tv2.no,www-nrk-no.translate.goog,www-tv2-no.translate.goog##a[href*=-psg- i]
+adressa.no,nrk.no,dr.dk,tv2.dk,ekstrabladet.dk,vg.no,dagbladet.no,theguardian.com,bbc.*,tv2.no,www-nrk-no.translate.goog,www-tv2-no.translate.goog##a[href*=saud i]:is([href*=sport i],[href*=ball i])
+adressa.no,nrk.no,dr.dk,tv2.dk,ekstrabladet.dk,vg.no,dagbladet.no,theguardian.com,bbc.*,tv2.no,www-nrk-no.translate.goog,www-tv2-no.translate.goog##a[href*=saudi-pro- i]
+adressa.no,nrk.no,dr.dk,tv2.dk,ekstrabladet.dk,vg.no,dagbladet.no,theguardian.com,bbc.*,tv2.no,www-nrk-no.translate.goog,www-tv2-no.translate.goog##a[href*=fabinho i]
+adressa.no,nrk.no,dr.dk,tv2.dk,ekstrabladet.dk,vg.no,dagbladet.no,theguardian.com,bbc.*,tv2.no,www-nrk-no.translate.goog,www-tv2-no.translate.goog##a[href*=jordan-henderson i]
+adressa.no,nrk.no,dr.dk,tv2.dk,ekstrabladet.dk,vg.no,dagbladet.no,theguardian.com,bbc.*,tv2.no,www-nrk-no.translate.goog,www-tv2-no.translate.goog##a[href*=al-hilal i]
+adressa.no,nrk.no,dr.dk,tv2.dk,ekstrabladet.dk,vg.no,dagbladet.no,theguardian.com,bbc.*,tv2.no,www-nrk-no.translate.goog,www-tv2-no.translate.goog##a[href*=al-ahli i]
+adressa.no,nrk.no,dr.dk,tv2.dk,ekstrabladet.dk,vg.no,dagbladet.no,theguardian.com,bbc.*,tv2.no,www-nrk-no.translate.goog,www-tv2-no.translate.goog##a[href*=al-shabab i]
+adressa.no,nrk.no,dr.dk,tv2.dk,ekstrabladet.dk,vg.no,dagbladet.no,theguardian.com,bbc.*,tv2.no,www-nrk-no.translate.goog,www-tv2-no.translate.goog##a[href*=saud i][href*=gp i]
+adressa.no,nrk.no,dr.dk,tv2.dk,ekstrabladet.dk,vg.no,dagbladet.no,theguardian.com,bbc.*,tv2.no,www-nrk-no.translate.goog,www-tv2-no.translate.goog##a[href*=saud i][href*=f1 i]
+adressa.no,nrk.no,dr.dk,tv2.dk,ekstrabladet.dk,vg.no,dagbladet.no,theguardian.com,bbc.*,tv2.no,www-nrk-no.translate.goog,www-tv2-no.translate.goog##a[href*=saud i][href*=formula i]
+adressa.no,nrk.no,dr.dk,tv2.dk,ekstrabladet.dk,vg.no,dagbladet.no,tv2.no,www-nrk-no.translate.goog,www-tv2-no.translate.goog##a[href*=saud i][href*=formel i]
+adressa.no,nrk.no,dr.dk,tv2.dk,ekstrabladet.dk,vg.no,dagbladet.no,theguardian.com,bbc.*,tv2.no,www-nrk-no.translate.goog,www-tv2-no.translate.goog##a[href*=saud i][href*=prix i]
+adressa.no,nrk.no,dr.dk,tv2.dk,ekstrabladet.dk,vg.no,dagbladet.no,tv2.no,www-nrk-no.translate.goog,www-tv2-no.translate.goog##a[href*=overgange i]
+adressa.no,nrk.no,dr.dk,tv2.dk,ekstrabladet.dk,vg.no,dagbladet.no,tv2.no,www-nrk-no.translate.goog,www-tv2-no.translate.goog##a[href*=overgangsv i]
+adressa.no,nrk.no,dr.dk,tv2.dk,ekstrabladet.dk,vg.no,dagbladet.no,www-nrk-no.translate.goog##a[href*=supre-liga i]
+adressa.no,nrk.no,dr.dk,tv2.dk,ekstrabladet.dk,vg.no,dagbladet.no,www-nrk-no.translate.goog##a[href*=mesterliga i]:not([href*=bodo i],[href*=glimt i],[href*=knutsen i],[href*=pafos i],[href*=aspmyra i],[href*=haikin i],[href*=viking i])
+adressa.no,nrk.no,dr.dk,tv2.dk,ekstrabladet.dk,vg.no,dagbladet.no,www-nrk-no.translate.goog##a[href*=liverpool i]
+adressa.no,nrk.no,dr.dk,tv2.dk,ekstrabladet.dk,vg.no,dagbladet.no,www-nrk-no.translate.goog##a[href*=chelsea i]
+adressa.no,nrk.no,vg.no,dagbladet.no,www-nrk-no.translate.goog##a[href*=meisterliga i]:not([href*=bodo i],[href*=glimt i],[href*=knutsen i],[href*=pafos i],[href*=aspmyra i],[href*=haikin i],[href*=viking i])
+adressa.no,nrk.no,vg.no,dagbladet.no,www-nrk-no.translate.goog##a[href*=djevlenes i]
+adressa.no,nrk.no,vg.no,dagbladet.no,www-nrk-no.translate.goog##a[href*=tv-avtale i]
+adressa.no,nrk.no,vg.no,dagbladet.no,www-nrk-no.translate.goog##a[href*=ligatit i]
+nrk.no,www-nrk-no.translate.goog##a[href*="/sportsnyheter-"]:not([href*=bodo i],[href*=glimt i],[href*=knutsen i],[href*=pafos i],[href*=aspmyra i],[href*=haikin i],[href*=viking i])
+nrk.no,www-nrk-no.translate.goog##html.sport .stream-reference
+nrk.no,www-nrk-no.translate.goog##html.sport nrkno-playlist
+nrk.no,www-nrk-no.translate.goog##a[href*="resultater.nrk.no/fotball"]
+nrk.no,www-nrk-no.translate.goog##a[href*="/sport/"][href*=barcelona i]
+tv2.no,www-tv2-no.translate.goog##a[href*="/sport/"]:not([href*=bodo i],[href*=glimt i],[href*=knutsen i],[href*=pafos i],[href*=aspmyra i],[href*=haikin i],[href*=viking i])
+tv2.no,www-tv2-no.translate.goog##a[href*="/sport?"]:not([href*=bodo i],[href*=glimt i],[href*=knutsen i],[href*=pafos i],[href*=aspmyra i],[href*=haikin i],[href*=viking i])
+tv2.no,www-tv2-no.translate.goog##a[href*="/live/fotball"]:not([href*=bodo i],[href*=glimt i],[href*=knutsen i],[href*=pafos i],[href*=aspmyra i],[href*=haikin i],[href*=viking i])
+tv2.no,www-tv2-no.translate.goog##a[href*="/v/"]
+tv2.no,www-tv2-no.translate.goog##a[href*="/pl-"]
+tv2.no,www-tv2-no.translate.goog##a[href*=braut]:not([href*=bodo i],[href*=glimt i],[href*=knutsen i],[href*=pafos i],[href*=aspmyra i],[href*=haikin i],[href*=viking i])
+tv2.no,www-tv2-no.translate.goog##a[href*=sportsdognet-live]
+tv2.no,www-tv2-no.translate.goog##a[href*="/video/"]
+tv2.no,www-tv2-no.translate.goog#?#.bg-blue:has-text(/Champions\sLeague/i)
+||tv2.no/view-resources/*champions-league
+!!!tv2.no,www-tv2-no.translate.goog##[class*=champions-league i]
+tv2.no,www-tv2-no.translate.goog##a[href*="livesport/fotball"]
+dr.dk#?#li.dre-variables:has-text(/Champions\sLeague/i)
+dr.dk#?#.hydra-latest-news-page__short-news-item:has-text(/Champions\sLeague/i)
+dr.dk#?#.dre-section:has-text(/Champions\sLeague/i)
+dr.dk##a[href*="/fodbold/england/"]
+tv2.dk##a[href*="/fodbold/"]:not([href*=bodo i],[href*=glimt i],[href*=knutsen i],[href*=pafos i],[href*=aspmyra i],[href*=haikin i],[href*=viking i])
+tv2.dk##a[href*="sport.tv2.dk/live/"]
+ekstrabladet.dk##a[href*="/spanskfodbold/"]
+||tnfba-static.telenorcdn.net/*premierleague.png^$image
+twe.no##div[data-id=home-ads-slider]
+twe.no#?#.is-10-widescreen > .columns > .column:has-text(Premier League)
+viaplay.no##video[poster*=_PL_]
+viaplay.no##a[href*=premier-league]
+||comfyballs.no/wp-content/uploads/sites/*/hero-comfy-pl-*.jpg|$image
+theguardian.com##[name=MostViewedRightWrapper]
+wikipedia.org#?#.wikitable > tbody tr:has(img:is([src*="Flag_of_Saudi" i],[src*="Flag of Saudi"]))
+twe.no#?#div[style^="width: "]:not([role],[data-id],[data-test-id]):has(div[role=img][aria-label*="Premier League"])
+tv2.no,www-tv2-no.translate.goog#?#:is(.article,.article--article-list,.lp-a,.col-sm-12,article.column):has-text(/^.*Balagu[eé].*$/i)
+tv2.no,www-tv2-no.translate.goog#?#:is(.article,.article--article-list,.lp-a,.col-sm-12,article.column):has-text(/^.*Ch?ristiano.*$/i)
+tv2.no,www-tv2-no.translate.goog#?#:is(.article,.article--article-list,.lp-a,.col-sm-12,article.column):has-text(/^.*Fifa.*$/i)
+tv2.no,www-tv2-no.translate.goog#?#:is(.article,.article--article-list,.lp-a,.col-sm-12,article.column):has-text(/^.*fotbal{2}.*$/i):has-text(/^.*pod[kc]ast.*$/i)
+tv2.no,www-tv2-no.translate.goog#?#:is(.article,.article--article-list,.lp-a,.col-sm-12,article.column):has-text(/^.*la\s?liga.*$/i)
+tv2.no,www-tv2-no.translate.goog#?#:is(.article,.article--article-list,.lp-a,.col-sm-12,article.column):has-text(/^.*Nassr.*$/i)
+tv2.no,www-tv2-no.translate.goog#?#:is(.article,.article--article-list,.lp-a,.col-sm-12,article.column):has-text(/^.*Ronaldo.*/i)
+tv2.no,www-tv2-no.translate.goog#?#:is(.article,.article--article-list,.lp-a,.col-sm-12,article.column):has-text(/^.*Se\småle.*$/i)
+tv2.no,www-tv2-no.translate.goog#?#:is(.article,.article--article-list,.lp-a,.col-sm-12,article.column):has-text(De Jong)
+tv2.no,www-tv2-no.translate.goog#?#:is(.article,.article--article-list,.lp-a,.col-sm-12,article.column):has-text(Messi )
+tv2.no,www-tv2-no.translate.goog#?#:is(.article,.article--article-list,.lp-a,.col-sm-12,article.column):has-text(United)
+!!!tv2.no,www-tv2-no.translate.goog#?#:is(.article,.article--article-list,.lp-a,.col-sm-12,article.column):has-text(/City-stjerne/i)
+!!!tv2.no,www-tv2-no.translate.goog#?#:is(.article,.article--article-list,.lp-a,.col-sm-12,article.column):has-text(/Ha{2}land/i)
+!!!tv2.no,www-tv2-no.translate.goog#?#:is(.article,.article--article-list,.lp-a,.col-sm-12,article.column):has-text(/league/i)
+!!!tv2.no,www-tv2-no.translate.goog#?#:is(.article,.article--article-list,.lp-a,.col-sm-12,article.column):has-text(/Scor[ei]/i)
+!!!tv2.no,www-tv2-no.translate.goog#?#:is(.article,.article--article-list,.lp-a,.col-sm-12,article.column):has-text(/scoring/i)
+adressa.no,nrk.no,vg.no,dagbladet.no,www-nrk-no.translate.goog##a[href*=skarpnord i]
+adressa.no,nrk.no,dr.dk,tv2.dk,ekstrabladet.dk,vg.no,dagbladet.no,svt.se,expressen.se,aftonbladet.se##a[href*=henrik-stensson i]
+adressa.no,nrk.no,dr.dk,tv2.dk,ekstrabladet.dk,vg.no,dagbladet.no,svt.se,expressen.se,aftonbladet.se##a[href*=pytlick i]
+adressa.no,nrk.no,dr.dk,tv2.dk,ekstrabladet.dk,vg.no,dagbladet.no,svt.se,expressen.se,aftonbladet.se,theguardian.com,bbc.*##a[href*=-jeddah- i]
+adressa.no,nrk.no,dr.dk,tv2.dk,ekstrabladet.dk,vg.no,dagbladet.no,svt.se,expressen.se,aftonbladet.se,theguardian.com,bbc.*##a[href*=phil-mickelson i]
+adressa.no,nrk.no,dr.dk,tv2.dk,ekstrabladet.dk,vg.no,dagbladet.no,svt.se,expressen.se,aftonbladet.se,theguardian.com,bbc.*##a[href*=-dakar- i]
+adressa.no,nrk.no,dr.dk,tv2.dk,ekstrabladet.dk,vg.no,dagbladet.no,svt.se,expressen.se,aftonbladet.se,theguardian.com,bbc.*##a[href*=-golf i]
+adressa.no,nrk.no,dr.dk,tv2.dk,ekstrabladet.dk,vg.no,dagbladet.no,svt.se,expressen.se,aftonbladet.se,theguardian.com,bbc.*##a[href*=-pga i]
+adressa.no,nrk.no,dr.dk,tv2.dk,ekstrabladet.dk,vg.no,dagbladet.no,svt.se,expressen.se,aftonbladet.se,theguardian.com,bbc.*##a[href*="/golf" i]
+adressa.no,nrk.no,dr.dk,tv2.dk,ekstrabladet.dk,vg.no,dagbladet.no,svt.se,expressen.se,aftonbladet.se,theguardian.com,bbc.*##a[href*="/pga" i]
+adressa.no,nrk.no,dr.dk,tv2.dk,ekstrabladet.dk,vg.no,dagbladet.no,svt.se,expressen.se,aftonbladet.se,theguardian.com,bbc.*##a[href*=hovland i]
+dr.dk,tv2.dk,ekstrabladet.dk##a[href*=motorcykel i][href*=oerken i]
+##a:is([href*=vm i],[href*=world-cup i],[href*=worldcup i]):is([href*=trekning i],[href*="2026"],[href*=fifa i],[href*=fotb],[href*=fodbold i],[href*=occer i],[href*=haaland i],[href*=solbakken i],[href*=trkning i],[href*=usa i],[href*=rump i],[href*=infantin i],[href*=ice i],[href*=stadion i],[href*=stadium i],[href*=fred i],[href*=peace i],[href*=sommer i],[href*=summer i],[href*=reise i],[href*=varm i],[href*=warm i],[href*=august i],[href*=kick i],[href*=gress i],[href*=grass i],[href*=turf i],[href*=ronaldo i],[href*=bappe i],[href*=messi i],[href*=yamal i],[href*=united i][href*=state i]):not([href*=hockey i],[href*=puck i],[href*=corrupt i],[href*=korrupt i],[href*=skandal i],[href*=scandal i],[href*=fraud i],[href*=evil i])
+~wikipedia.org##a:is([href*=fifa i],[href*=infantin i]):is([href*=peace i],[href*=fred i]):not([href*=corrupt i],[href*=korrupt i],[href*=skandal i],[href*=scandal i],[href*=fraud i],[href*=svindel i],[href*=svindler i],[href*=katastrof i],[href*=catastroph i],[href*=evil i],[href*=disast i])
+tv2.no##.column.article:has(a[href*="/mening_og_analyse/"])
+##a[href*=trump i]:is([href*=fotb i],[href*=footb i],[href*=fodb i])
+!#endif
+!#endif
+!#endif

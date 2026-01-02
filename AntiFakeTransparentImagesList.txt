@@ -1,0 +1,53 @@
+﻿! Title: ♟ Anti-'Fake transparent images' List
+! Version: 02February2025v2-Alpha
+! Expires: 8 days
+! Description: Have you browsed through image search engines looking for transparent images, but all you can find are ones with fake transparency and grey chessboards in the background? Then this list is for you.
+! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md#-english
+
+!#if !env_mv3
+!#if !ext_ubol
+!#if !adguard_ext_android_cb
+!!! Webpages offers the PNG upright, with fake transparency
+google.*##:is(div[data-attrid^="images "],.isv-r):has(a[href*="similarpng.com"])
+google.*##:is(div[data-attrid^="images "],.isv-r):has(a[href*="pngegg.com"])
+google.*##:is(div[data-attrid^="images "],.isv-r):has(a[href*="pngwing.com"])
+google.*##:is(div[data-attrid^="images "],.isv-r):has(a[href*="toppng.com"])
+google.*##:is(div[data-attrid^="images "],.isv-r):has(a[href*="hiclipart.com"])
+google.*##:is(div[data-attrid^="images "],.isv-r):has(a[href*="png.is/"])
+google.*##:is(div[data-attrid^="images "],.isv-r):has(a[href*="pngfind.com"])
+google.*##:is(div[data-attrid^="images "],.isv-r):has(a[href*="clipartmax.com"])
+google.*##:is(div[data-attrid^="images "],.isv-r):has(a[href*="lovepik.com"])
+google.*##:is(div[data-attrid^="images "],.isv-r):has(a[href*="cleanpng.com"])
+google.*##:is(div[data-attrid^="images "],.isv-r):has(a[href*="pinpng.com"])
+google.*##:is(div[data-attrid^="images "],.isv-r):has(a[href*="flyclipart.com"])
+google.*##:is(div[data-attrid^="images "],.isv-r):has(a[href*="pngaaa.com"])
+google.*##:is(div[data-attrid^="images "],.isv-r):has(a[href*="dlf.pt"])
+google.*##:is(div[data-attrid^="images "],.isv-r):has(a[href*="nohat.cc"])
+google.*##:is(div[data-attrid^="images "],.isv-r):has(a[href*="www.vhv.rs"])
+google.*##:is(div[data-attrid^="images "],.isv-r):has(a[href*="www.uihere.com"])
+!!! Webpages offer a JPG, but claims you can download a PNG with an account
+google.*##:is(div[data-attrid^="images "],.isv-r):has(a[href*="favpng.com"])
+google.*##:is(div[data-attrid^="images "],.isv-r):has(a[href*="pnghut.com"])
+google.*##:is(div[data-attrid^="images "],.isv-r):has(a[href*="pngtree.com"])
+google.*##:is(div[data-attrid^="images "],.isv-r):has(a[href*="imgbin.com"])
+!!! Webpages offer a JPG, but claims you can download a PNG with a Captcha
+google.*##:is(div[data-attrid^="images "],.isv-r):has(a[href*="subpng.com"])
+google.*##:is(div[data-attrid^="images "],.isv-r):has(a[href*="kissclipart.com"])
+!#endif
+!#endif
+!#endif
+! Acquitted
+!!! cleanpngCOM
+!!! clipart-libraryCOM
+!!! freepngimgCOM
+!!! holidaypngCOM
+!!! klipartzCOM
+!!! nicepngCOM
+!!! pinclipartCOM
+!!! pingitemCOM
+!!! pngallCOM
+!!! pngimagesIN
+!!! pngkeyCOM
+!!! pngplayCOM
+!!! pngsetCOM
+!!! stickpngCOM

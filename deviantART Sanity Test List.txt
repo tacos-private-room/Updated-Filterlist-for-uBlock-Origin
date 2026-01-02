@@ -1,0 +1,240 @@
+[Adblock Plus 3.13]
+! Title: deviantART Sanity Test List
+! Version: 20September2024v1-Sandbox
+! Description: An overly broad list to filter out content made by confused 10-year olds from deviantART. Although a bit broad in its blocking, it's a prerequisite for me to use when slowly restoring DA entries in many of my non-sandbox adblock lists.
+
+! ——— Vore ———
+deviantart.com##div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*=-vore- i])
+deviantart.com##div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*=sexy-mouth i])
+deviantart.com##div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*=-eats- i])
+deviantart.com##div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*=-ate- i])
+deviantart.com##a[data-hook][href*="/art/"][href*=-vore- i]
+deviantart.com##a[data-hook][href*="/art/"][href*=sexy-mouth i]
+deviantart.com##a[data-hook][href*="/art/"][href*=-eats- i]
+deviantart.com##a[data-hook][href*="/art/"][href*=-ate- i]
+
+! ——— Illegitimate "memes" ————
+deviantart.com##div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*=meme i])
+deviantart.com##div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*="/6-"])
+deviantart.com##div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*=-abc- i])
+deviantart.com##div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*="/abc-" i])
+deviantart.com##div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*=starter-pack i])
+deviantart.com##div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*=six-fanarts i])
+deviantart.com##div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*=abcfanart i])
+deviantart.com##a[data-hook][href*="/art/"][href*=meme i]
+deviantart.com##a[data-hook][href*="/art/"][href*="/6-"]
+deviantart.com##a[data-hook][href*="/art/"][href*=-abc- i]
+deviantart.com##a[data-hook][href*="/art/"][href*="/abc-" i]
+deviantart.com##a[data-hook][href*="/art/"][href*=starter-pack i]
+deviantart.com##a[data-hook][href*="/art/"][href*=six-fanarts i]
+deviantart.com##a[data-hook][href*="/art/"][href*=abcfanart i]
+
+! ——— Feet ———
+www.deviantart.com##div[style^="width:"][style*="display:"]:has(a[href*="/art/"]):has([href*="/feet" i],[href*="-feet-" i],[href*=barefoot i],[href*=barefeet i],[href*=footsie i],[href*=-toes- i],[href*="/toes" i],[href*=-soles- i],[href*=modify-shoe i])
+deviantart.com##a[data-hook][href*="/art/"][href*="/feet" i]
+deviantart.com##a[data-hook][href*="/art/"][href*=-feet- i]
+deviantart.com##a[data-hook][href*="/art/"][href*=barefoot i]
+deviantart.com##a[data-hook][href*="/art/"][href*=barefeet i]
+deviantart.com##a[data-hook][href*="/art/"][href*=footsie i]
+deviantart.com##a[data-hook][href*="/art/"][href*=-toes- i]
+deviantart.com##a[data-hook][href*="/art/"][href*="/toes" i]
+deviantart.com##a[data-hook][href*="/art/"][href*=-soles- i]
+deviantart.com##a[data-hook][href*="/art/"][href*=modify-shoe i]
+
+! ——— Pregnancy ———
+deviantart.com##div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*=pregnan i])
+deviantart.com##div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*=pegnant i])
+deviantart.com##div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*=-preg- i])
+deviantart.com##div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*="/prega" i])
+deviantart.com##a[data-hook][href*="/art/"][href*=pregnan i]
+deviantart.com##a[data-hook][href*="/art/"][href*=pegnant i]
+deviantart.com##a[data-hook][href*="/art/"][href*=-preg- i]
+deviantart.com##a[data-hook][href*="/art/"][href*="/prega" i]
+
+! ——— Other uninteresting fetishes ———
+www.deviantart.com##div[style^="width:"][style*="display:"]:has(a[href*="/art/"]):has([href*=weight-gain i],[href*=fetish-fuel i],[href*=-tickl i],[href*="/tickl" i],[href*=bellies i],[href*=naturists i],[href*=cedfia i],[href*=obesity i],[href*=-navels- i],[href*=belly-button i],[href*=bellybutton i],[href*=-waifu- i],[href*=-feet- i],[href*=-toes- i],[href*=frozen-in-a-block-of-ice i],[href*=matthew200432 i],[href*=fullbodycast i],[href*=toenail i],[href*=kaa- i][href*=hypno i],[href*=kaa i][href*=jungle-book i],[href*=-vore- i],[href*="/vore-" i],[href*=ticklish i],[href*="/kaa-" i],[href*=preggo i],[href*=argon001 i],[href*=-eats-me i]:not([href*=-out- i]),[href*=clover i]:is([href*=fat i],[href*=obese i],[href*=cookie i],[href*=big i],[href*=budg i]))
+deviantart.com##a[data-hook][href*="/art/"][href*=weight-gain i]
+deviantart.com##a[data-hook][href*="/art/"][href*=fetish-fuel i]
+deviantart.com##a[data-hook][href*="/art/"][href*=-tickl i]
+deviantart.com##a[data-hook][href*="/art/"][href*="/tickl" i]
+deviantart.com##a[data-hook][href*="/art/"][href*=bellies i]
+deviantart.com##a[data-hook][href*="/art/"][href*=naturists i]
+deviantart.com##a[data-hook][href*="/art/"][href*=cedfia i]
+deviantart.com##a[data-hook][href*="/art/"][href*=obesity i]
+deviantart.com##a[data-hook][href*="/art/"][href*=-navels- i]
+deviantart.com##a[data-hook][href*="/art/"][href*=belly-button i]
+deviantart.com##a[data-hook][href*="/art/"][href*=bellybutton i]
+deviantart.com##a[data-hook][href*="/art/"][href*=-waifu- i]
+deviantart.com##a[data-hook][href*="/art/"][href*=frozen-in-a-block-of-ice i]
+deviantart.com##a[data-hook][href*="/art/"][href*=matthew200432 i]
+deviantart.com##a[data-hook][href*="/art/"][href*=fullbodycast i]
+deviantart.com##a[data-hook][href*="/art/"][href*=toenail i]
+deviantart.com##a[data-hook][href*="/art/"][href*=kaa- i][href*=hypno i]
+deviantart.com##a[data-hook][href*="/art/"][href*=kaa i][href*=jungle-book i]
+deviantart.com##a[data-hook][href*="/art/"][href*=-vore- i]
+deviantart.com##a[data-hook][href*="/art/"][href*="/vore-" i]
+deviantart.com##a[data-hook][href*="/art/"][href*=ticklish i]
+deviantart.com##a[data-hook][href*="/art/"][href*="/kaa-" i]
+deviantart.com##a[data-hook][href*="/art/"][href*=preggo i]
+deviantart.com##a[data-hook][href*="/art/"][href*=argon001 i]
+deviantart.com##a[data-hook][href*="/art/"][href*=-eats-me i]:not([href*=-out- i])
+deviantart.com##a[data-hook][href*="/art/"][href*=clover i]:is([href*=fat i],[href*=obese i],[href*=cookie i],[href*=big i],[href*=budg i])
+
+! ——— DA artists are NOT in a position to complain about theft, when 75% of the entire site was already vector theft ———
+www.deviantart.com##div[style^="width:"][style*="display:"]:has(a[href*="/art/"]):has([href*=no-to-AI- i],[href*=AI-is-theft- i],[href*=AI-is-not-art- i],[href*=support-human- i],[href*=support-real-artist i],[href*=nope-to-AI- i],[href*=stop-AI- i],[href*=ban-AI- i],[href*=AI-art-is-theft- i],[href*=no-AI-art i],[href*=dont-support-ai- i],[href*=remove-AI- i],[href*="/Fuck-AI-generat" i],[href*="/No-AI-" i],[href*=abused-images- i])
+deviantart.com##a[data-hook][href*="/art/"][href*=no-to-AI- i]
+deviantart.com##a[data-hook][href*="/art/"][href*=AI-is-theft- i]
+deviantart.com##a[data-hook][href*="/art/"][href*=AI-is-not-art- i]
+deviantart.com##a[data-hook][href*="/art/"][href*=support-human- i]
+deviantart.com##a[data-hook][href*="/art/"][href*=support-real-artist i]
+deviantart.com##a[data-hook][href*="/art/"][href*=nope-to-AI- i]
+deviantart.com##a[data-hook][href*="/art/"][href*=stop-AI- i]
+deviantart.com##a[data-hook][href*="/art/"][href*=ban-AI- i]
+deviantart.com##a[data-hook][href*="/art/"][href*=AI-art-is-theft- i]
+deviantart.com##a[data-hook][href*="/art/"][href*=no-AI-art i]
+deviantart.com##a[data-hook][href*="/art/"][href*=dont-support-ai- i]
+deviantart.com##a[data-hook][href*="/art/"][href*=remove-AI- i]
+deviantart.com##a[data-hook][href*="/art/"][href*="/Fuck-AI-generat" i]
+deviantart.com##a[data-hook][href*="/art/"][href*="/No-AI-" i]
+deviantart.com##a[data-hook][href*="/art/"][href*=abused-images- i]
+
+! ——— I just knew all the youth activist movements out there wouldn't be able to shut up about this ———
+www.deviantart.com##div[style^="width:"][style*="display:"]:has(a[href*="/art/"]):has([href*=israel i],[href*=palestin i],[href*=gaza i])
+deviantart.com##a[data-hook][href*="/art/"][href*=israel i]
+deviantart.com##a[data-hook][href*="/art/"][href*=palestin i]
+deviantart.com##a[data-hook][href*="/art/"][href*=gaza i]
+deviantart.com##[title=DealerAdIframe i]
+
+! ——— Probably can't be carried over to the public list, along with other very small categories absorbed into it to avoid RAM overflow or something ———
+! ——— Also known as the "Dear lords, why" section since 8 March 2024. ———
+www.deviantart.com##div[style^="width:"][style*="display:"]:has(a[href*="/art/"]):has([href*=-Review- i],[href*="/Review-" i],[href*=-analysis-on- i],[href*=photography i]:not([href*=cosplay i]),[href*=-wallpaper- i],[href*=-bubble- i],[href*=-bubbles- i],[href*="/bubble-" i],[href*="/bubbles-" i],[href*=balloon i],[href*=bubblegum i],[href*=pregnan i],[href*=wazifa i],[href*=-stamp- i],[href*=birthflower i],[href*=despicable-me-style i],:is([href*=grid- i],[href*=breed i]):is([href*=open i],[href*=close i],[href*=pause i],[href*=ship i]),[href*=chick-fil-a i],[href*=Jack-Frost- i],[href*="/dinofan" i],[href*=hillenb i][href*=rg- i],[href*=hijab i],[href*=jungkook i],[href*=engine i],[href*=character-inspiration i],[href*=-on-the-cross i],[href*="/christ" i],[href*=-christ i],[href*="/exodus-" i],[href*="/genesis-" i],[href*=mother-s-day- i],[href*=mothers-day- i],[href*=crossover i],[href*=read-desc i],[href*="-sing-" i],[href*="-sings-" i],[href*="-singing-" i],[href*="-laugh-at-" i],[href*="pregs" i],[href*="retroguy" i],[href*="-eg-" i],[href*="1998/"],[href*="1997/"],[href*="1996/"],[href*="1994/"],[href*="1993/"],[href*="1992/"],[href*="1991/"],[href*="1990/"],[href*="1988/"],[href*="1987/"],[href*="1986/"],[href*="1985/"],[href*=hypnotize i],[href*=-bubbly- i],[href*=fancast i],[href*=fan-cast i],[href*=buena-vista i],[href*=hedgehog1 i],[href*=hedgehog2 i],[href*="/BRICS-"],[href*=-BRICS-],[href*=many-voices i],[href*=-smiles-at- i],[href*=nintendosupermario i],[href*=hypothetical- i],[href*=-as-ponies- i],[href*=fattest i],[href*=haroun i],[href*=-frozen-elsa- i],[href*=-belly- i],[href*=-is-kinda-mad- i],[href*=fan202 i],[href*=fan201 i],[href*=fan200 i],[href*=-PNG-],[href*=voiced-by- i],[href*=-laughing-at- i],[href*="/calling-out-" i],[href*=meets-her-variant i],[href*=meets-his-variant i],[href*=stop-follow i],[href*=fan199 i],[href*=fan198 i],[href*=spin i]:is([href*=tornado i],[href*=dizz i]),[href*=ponyfan i],[href*=season-episode- i],[href*=wonder-red- i],[href*=unconscious i],[href*=-gas- i],[href*=dizzy- i],[href*=bellyboob i],[href*=".com/sonic" i],[href*=-blowing- i][href*=-up- i],[href*=-bloated- i],[href*="2002/"],[href*="2003/"],[href*="2004/"],[href*="2005/"],[href*="2006/"],[href*="2007/"],[href*="2008/"],[href*="2009/"],[href*="2010/"],[href*="2011/"],[href*="2012/"],[href*="2013/"],[href*="2014/"],[href*="2015/"],[href*="2016/"],[href*="2017/"],[href*="2018/"],[href*="2019/"],[href*="2020/"],[href*="2021/"],[href*="2022/"],[href*="2023/"],[href*="2024/"],[href*=-has-ruined- i],[href*=-base- i]:is([href*=winx i],[href*=w-i-t-c-h i],[href*=witch i]),[href*=caillou i],[href*=acting-roles-w i],[href*=are-sad-about i],[href*=gets-scared-of- i],[href*=had-this-costume i],[href*="/Laa-Laa-"])
+deviantart.com##a[data-hook][href*="/art/"][href*=-Review- i]
+deviantart.com##a[data-hook][href*="/art/"][href*="/Review-" i]
+deviantart.com##a[data-hook][href*="/art/"][href*=-analysis-on- i]
+deviantart.com##a[data-hook][href*="/art/"][href*=photography i]:not([href*=cosplay i])
+deviantart.com##a[data-hook][href*="/art/"][href*=-wallpaper- i]
+deviantart.com##a[data-hook][href*="/art/"][href*=-bubble- i]
+deviantart.com##a[data-hook][href*="/art/"][href*=-bubbles- i]
+deviantart.com##a[data-hook][href*="/art/"][href*="/bubble-" i]
+deviantart.com##a[data-hook][href*="/art/"][href*="/bubbles-" i]
+deviantart.com##a[data-hook][href*="/art/"][href*=balloon i]
+deviantart.com##a[data-hook][href*="/art/"][href*=bubblegum i]
+deviantart.com##a[data-hook][href*="/art/"][href*=pregnan i]
+deviantart.com##a[data-hook][href*="/art/"][href*=wazifa i]
+deviantart.com##a[data-hook][href*="/art/"][href*=-stamp- i]
+deviantart.com##a[data-hook][href*="/art/"][href*=birthflower i]
+deviantart.com##a[data-hook][href*="/art/"][href*=despicable-me-style i]
+deviantart.com##a[data-hook][href*="/art/"]:is([href*=grid- i],[href*=breed i]):is([href*=open i],[href*=close i],[href*=pause i],[href*=ship i])
+deviantart.com##a[data-hook][href*="/art/"][href*=chick-fil-a i]
+deviantart.com##a[data-hook][href*="/art/"][href*=Jack-Frost- i]
+deviantart.com##a[data-hook][href*="/art/"][href*="/dinofan" i]
+deviantart.com##a[data-hook][href*="/art/"][href*=hillenb i][href*=rg- i]
+deviantart.com##a[data-hook][href*="/art/"][href*=hijab i]
+deviantart.com##a[data-hook][href*="/art/"][href*=jungkook i]
+deviantart.com##a[data-hook][href*="/art/"][href*=engine i]
+deviantart.com##a[data-hook][href*="/art/"][href*=character-inspiration i]
+deviantart.com##a[data-hook][href*="/art/"][href*=-on-the-cross i]
+deviantart.com##a[data-hook][href*="/art/"][href*="/christ" i]
+deviantart.com##a[data-hook][href*="/art/"][href*=-christ i]
+deviantart.com##a[data-hook][href*="/art/"][href*="/exodus-" i]
+deviantart.com##a[data-hook][href*="/art/"][href*="/genesis-" i]
+deviantart.com##a[data-hook][href*="/art/"][href*=mother-s-day- i]
+deviantart.com##a[data-hook][href*="/art/"][href*=mothers-day- i]
+deviantart.com##a[data-hook][href*="/art/"][href*=crossover i]
+deviantart.com##a[data-hook][href*="/art/"][href*=read-desc i]
+deviantart.com##a[data-hook][href*="/art/"][href*="-sing-" i]
+deviantart.com##a[data-hook][href*="/art/"][href*="-sings-" i]
+deviantart.com##a[data-hook][href*="/art/"][href*="-singing-" i]
+deviantart.com##a[data-hook][href*="/art/"][href*="-laugh-at-" i]
+deviantart.com##a[data-hook][href*="/art/"][href*="pregs" i]
+deviantart.com##a[data-hook][href*="/art/"][href*="retroguy" i]
+deviantart.com##a[data-hook][href*="/art/"][href*="-eg-" i]
+deviantart.com##a[data-hook][href*="/art/"][href*="1998/"]
+deviantart.com##a[data-hook][href*="/art/"][href*="1997/"]
+deviantart.com##a[data-hook][href*="/art/"][href*="1996/"]
+deviantart.com##a[data-hook][href*="/art/"][href*="1994/"]
+deviantart.com##a[data-hook][href*="/art/"][href*="1993/"]
+deviantart.com##a[data-hook][href*="/art/"][href*="1992/"]
+deviantart.com##a[data-hook][href*="/art/"][href*="1991/"]
+deviantart.com##a[data-hook][href*="/art/"][href*="1990/"]
+deviantart.com##a[data-hook][href*="/art/"][href*="1988/"]
+deviantart.com##a[data-hook][href*="/art/"][href*="1987/"]
+deviantart.com##a[data-hook][href*="/art/"][href*="1986/"]
+deviantart.com##a[data-hook][href*="/art/"][href*="1985/"]
+deviantart.com##a[data-hook][href*="/art/"][href*=hypnotize i]
+deviantart.com##a[data-hook][href*="/art/"][href*=-bubbly- i]
+deviantart.com##a[data-hook][href*="/art/"][href*=fancast i]
+deviantart.com##a[data-hook][href*="/art/"][href*=fan-cast i]
+deviantart.com##a[data-hook][href*="/art/"][href*=buena-vista i]
+deviantart.com##a[data-hook][href*="/art/"][href*=hedgehog1 i]
+deviantart.com##a[data-hook][href*="/art/"][href*=hedgehog2 i]
+deviantart.com##a[data-hook][href*="/art/"][href*="/BRICS-"]
+deviantart.com##a[data-hook][href*="/art/"][href*=-BRICS-]
+deviantart.com##a[data-hook][href*="/art/"][href*=many-voices i]
+deviantart.com##a[data-hook][href*="/art/"][href*=-smiles-at- i]
+deviantart.com##a[data-hook][href*="/art/"][href*=nintendosupermario i]
+deviantart.com##a[data-hook][href*="/art/"][href*=hypothetical- i]
+deviantart.com##a[data-hook][href*="/art/"][href*=-as-ponies- i]
+deviantart.com##a[data-hook][href*="/art/"][href*=fattest i]
+deviantart.com##a[data-hook][href*="/art/"][href*=haroun i]
+deviantart.com##a[data-hook][href*="/art/"][href*=-frozen-elsa- i]
+deviantart.com##a[data-hook][href*="/art/"][href*=-belly- i]
+deviantart.com##a[data-hook][href*="/art/"][href*=-is-kinda-mad- i]
+deviantart.com##a[data-hook][href*="/art/"][href*=fan202 i]
+deviantart.com##a[data-hook][href*="/art/"][href*=fan201 i]
+deviantart.com##a[data-hook][href*="/art/"][href*=fan200 i]
+deviantart.com##a[data-hook][href*="/art/"][href*=-PNG-]
+deviantart.com##a[data-hook][href*="/art/"][href*=voiced-by- i]
+deviantart.com##a[data-hook][href*="/art/"][href*=-laughing-at- i]
+deviantart.com##a[data-hook][href*="/art/"][href*="/calling-out-" i]
+deviantart.com##a[data-hook][href*="/art/"][href*=meets-her-variant i]
+deviantart.com##a[data-hook][href*="/art/"][href*=meets-his-variant i]
+deviantart.com##a[data-hook][href*="/art/"][href*=stop-follow i]
+deviantart.com##a[data-hook][href*="/art/"][href*=fan199 i]
+deviantart.com##a[data-hook][href*="/art/"][href*=fan198 i]
+deviantart.com##a[data-hook][href*="/art/"][href*=spin i]:is([href*=tornado i],[href*=dizz i])
+deviantart.com##a[data-hook][href*="/art/"][href*=ponyfan i]
+deviantart.com##a[data-hook][href*="/art/"][href*=season-episode- i]
+deviantart.com##a[data-hook][href*="/art/"][href*=wonder-red- i]
+deviantart.com##a[data-hook][href*="/art/"][href*=unconscious i]
+deviantart.com##a[data-hook][href*="/art/"][href*=-gas- i]
+deviantart.com##a[data-hook][href*="/art/"][href*=dizzy- i]
+deviantart.com##a[data-hook][href*="/art/"][href*=bellyboob i]
+deviantart.com##a[data-hook][href*="/art/"][href*=".com/sonic" i]
+deviantart.com##a[data-hook][href*="/art/"][href*=-blowing- i][href*=-up- i]
+deviantart.com##a[data-hook][href*="/art/"][href*=-bloated- i]
+deviantart.com##a[data-hook][href*="/art/"][href*="2002/"]
+deviantart.com##a[data-hook][href*="/art/"][href*="2003/"]
+deviantart.com##a[data-hook][href*="/art/"][href*="2004/"]
+deviantart.com##a[data-hook][href*="/art/"][href*="2005/"]
+deviantart.com##a[data-hook][href*="/art/"][href*="2006/"]
+deviantart.com##a[data-hook][href*="/art/"][href*="2007/"]
+deviantart.com##a[data-hook][href*="/art/"][href*="2008/"]
+deviantart.com##a[data-hook][href*="/art/"][href*="2009/"]
+deviantart.com##a[data-hook][href*="/art/"][href*="2010/"]
+deviantart.com##a[data-hook][href*="/art/"][href*="2011/"]
+deviantart.com##a[data-hook][href*="/art/"][href*="2012/"]
+deviantart.com##a[data-hook][href*="/art/"][href*="2013/"]
+deviantart.com##a[data-hook][href*="/art/"][href*="2014/"]
+deviantart.com##a[data-hook][href*="/art/"][href*="2015/"]
+deviantart.com##a[data-hook][href*="/art/"][href*="2016/"]
+deviantart.com##a[data-hook][href*="/art/"][href*="2017/"]
+deviantart.com##a[data-hook][href*="/art/"][href*="2018/"]
+deviantart.com##a[data-hook][href*="/art/"][href*="2019/"]
+deviantart.com##a[data-hook][href*="/art/"][href*="2020/"]
+deviantart.com##a[data-hook][href*="/art/"][href*="2021/"]
+deviantart.com##a[data-hook][href*="/art/"][href*="2022/"]
+deviantart.com##a[data-hook][href*="/art/"][href*="2023/"]
+deviantart.com##a[data-hook][href*="/art/"][href*="2024/"]
+deviantart.com##a[data-hook][href*="/art/"][href*=-has-ruined- i]
+deviantart.com##a[data-hook][href*="/art/"][href*=-base- i]:is([href*=winx i],[href*=w-i-t-c-h i],[href*=witch i])
+deviantart.com##a[data-hook][href*="/art/"][href*=caillou i]
+deviantart.com##a[data-hook][href*="/art/"][href*=acting-roles-w i]
+deviantart.com##a[data-hook][href*="/art/"][href*=are-sad-about i]
+deviantart.com##a[data-hook][href*="/art/"][href*=gets-scared-of- i]
+deviantart.com##a[data-hook][href*="/art/"][href*=had-this-costume i]
+deviantart.com##a[data-hook][href*="/art/"][href*="/Laa-Laa-"]
+
+! ——— The frontpage scares me ———
+deviantart.com##a[aria-label="DeviantArt - Home"]
+!!!://www.deviantart.com^|$doc
