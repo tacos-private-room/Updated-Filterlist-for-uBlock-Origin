@@ -1,0 +1,303 @@
+﻿[Adblock Plus 3.13]
+! Title: 🎫 Ad Removal List for Unusual Ads
+! Version: 25June2025v1-Beta
+! Expires: 4 days
+! Description: This is a list to remove the kinds of ads that very few well-established international adblocker lists would want to remove, due to many of them not meeting those lists' strict criteria of what an ad actually is. So that's where this list comes into play.
+! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md#-english
+
+! ——— Webstore coupon aggregator listings that are not actually coupons ———
+aftenposten.no##.offer
+cuponation.*##.first .d.v
+e-rabattkode.no#?#.er-offer-item:has(.coupon-button:not([data-clip-code]))
+kupongkode.com##.promotionCouponPopup
+nettavisen.no##.type-tilbud
+nyerabattkoder.no#?#.item-holder:has-text(Klikk for å løse inn)
+rabattkalas.se#?#.voucher:has-text(Använd erbjudandet nu)
+rabattkod.nyheter24.se,rabattkod.gp.se#?#.card:has-text(Till rabatt)
+rabattkode.gulesider.no##.deal
+rabble.*##.offer-card:has(i.icon-link-ext)
+tradera.com#?#.traderase-voucher:has-text(Visa rabatten)
+varejakten.no#?#.no-gutters.row:has-text(Vis tilbud)
+vg.no#?#.offer-details:has-text(Vis tilbud)
+! Blatantly bot-generated fraudsters
+||e-rabattkode.no^$document,domain=~falsk-kupongside-som-ikke-har-kuponger.*
+||hotdeals.com^$document,domain=~fake-coupon-site-that-has-no-coupons.*
+||coupert.com^$document,domain=~fake-coupon-site-that-has-no-coupons.*
+||rabattkodendin.com^$document,domain=~falsk-kupongside-som-ikke-har-kuponger.*
+
+! ——— Unnecessarily obtrusive premium service banners ———
+! If a banner is in this category, it means that those who still do want to buy into their Premium services, can do so through the user settings without having to see the obtrusive banners.
+!#if !env_mobile
+pixiv.net##._premium-lead-popular-d-body
+pixiv.net##._premium-lead-tag-search-bar > a[href^="/premium.php"]
+pixiv.net##div:has(> aside + a[href^="/premium/lead/"])
+pixiv.net##div > div + section:has(a[href^="/premium/lead/"])
+!#endif
+!#if env_mobile
+pixiv.net##.premium-lead
+soundcloud.com##.statsBadge__upsell
+!#endif
+! https://github.com/DandelionSprout/adfilt/issues/63#issuecomment-691479377
+###dakapoinfeed
+###dakapotopbar
+! https://github.com/DandelionSprout/adfilt/issues/63#issuecomment-691529695
+cda.pl##.video-baner
+cda.pl##.row-video-clip-wrapper
+cda.pl###tVC
+
+! ——— Other obtrusive self-ads ———
+whois.net###alternative_filters > table
+whois.net###midColumn
+mewe.com##.emoji-picker-promotion
+techdirt.com#?#.storyblock:has-text(Daily Deal: )
+! (Causes problems with "No results found" pages)
+!!!google.*###topstuff
+
+! ——— Huge third-party newsletter promotions ———
+bulbapedia.bulbagarden.net###upper-article
+
+! ——— Slot machine design ads(?) on Artstation ———
+! Most easily visible when searching for fantasy creatures like "mermaid" and "fairy".
+artstation.com#?#projects-list-item:has-text(/^.*slot\s\mach\ine.*$/i)
+artstation.com#?#projects-list-item:has-text(/^.*v\ideo\sslot.*$/i)
+artstation.com#?#projects-list-item:has-text(/^.*slot\ss\y\mbol.*$/i)
+artstation.com#?#projects-list-item:has-text(/^.*Keno(\s|\.).*$/)
+artstation.com#?#projects-list-item:has-text(/^.*slot\sga\me.*$/i)
+artstation.com#?#projects-list-item:has-text(Artforgame Gamedesign)
+
+! ——— Project "sponsors" that are actually just the project leaders selling out to online casinos
+||images.opencollective.com^$domain=socket.io
+||socket.io/images/sponsors^$image
+socket.io###sponsors
+islandecho.co.uk##.herald-module:has(.category-news-in-brief)
+
+! ——— Placeholders that are seemingly too small for EasyList ———
+mightytext.net###ad-block-holder
+
+! ——— Denied (or implied denied) in EasyList for not being in English, denied (or implied denied) in AdGuard Base for not being a popular site, no known language lists for it. May be submitted to uAssets at some point ———
+! For info on languages and which lists to send them to, see https://github.com/DandelionSprout/adfilt/blob/master/Wiki/Status%20for%20rare%20languages.md
+! —— 🇰🇿 Kazakh (Қазақша) ——
+! https://github.com/AdguardTeam/AdguardFilters/issues/146131
+kostanaytany.kz#?#.elementor-widget-image:not(:has([href*=kostanaytany]))
+kostanaytany.kz##.elementor-widget-image:has(a[href*=uploads])
+old.kostanaytany.kz#?#.widget > p:not(:has(a[href*=kostanaytany]))
+old.kostanaytany.kz##.widget > p:has(a[href*=uploads])
+! —— 🇲🇹 Maltese (Malti) ——
+! Alexa: 239,224th
+tvmnews.mt##div[data-widget_type="shortcode.default"]
+! —— 🇨🇼 🇦🇼 Papiamento ——
+! Alexa: 637,917th
+721news.com##.wdslider
+721news.com##aside[id^=media_]
+! —— 🇱🇦 Laotian (ພາສາລາວ) ——
+! Alexa: Worse than 1,000,000th
+vientianetimeslao.la##div[id^=media_image]
+
+! ——— Slot machine spam ———
+deviantart.com##div[style^="width:"][style*="display:"]:has(a[href*="/art/"][href*=slotonline i])
+deviantart.com##a[data-hook][href*="/art/"][href*=slotonline i]
+
+! ——— Occurs too rarely for anyone else to reproduce them ———
+fandom.com##.ad-slot-placeholder
+
+! Self-promo entries for PR-Chinese websites
+! 🇨🇳: 中文网站上的二维码自促销活动
+! Special thanks to https://github.com/HankAviator for writing the below entries
+amap.com##.dir_qr
+bababus.com##.guide_wx
+bestwehotel.com##.member-type-footer
+booking.huazhu.com##.Lflr.m_top_right
+ceair.com##.pop-index
+creditcardapp.bankcomm.com###overlay
+csair.com##.qrcode
+ctrip.com##.app_rec_box
+ctrip.com##.set-wechat.set-list > .nav-myctrip.person-text
+ctrip.com##.wechat_code.footer-item
+ctrip.com##.jkncEC.sc-jsSDDP > li
+ctrip.com##.OLfyU.sc-kNnZrs > li
+decathlon.com.cn##.col-xs-12.col-sm-4.qrcode-container-jay
+dianping.com##.J_aside-qrcode
+dianping.com##.qrcode-fixed
+flights.ctrip.com##.fVfIeY.guaranteeStyle__GuaranteeQR-ihMQSD
+flights.ctrip.com##.ieIrHH.sc-hJnYpn
+home.meishichina.com##.ft3
+home.meishichina.com##.ft4
+huazhu.com##.downapp
+huazhu.com##.download-app-unopen
+jd.com##.jdm-tbar-tab-qrcode.jdm-toolbar-tab.J-trigger
+kyfw.12306.cn###ins_mask
+loongair.cn##.display-row-box.right > div.box:nth-of-type(1)
+loongair.cn##.display-row-box.right > div.box:nth-of-type(2)
+meiju11.com##.layui-layer-page.layui-layer
+meiju11.com###layui-layer-shade1
+meituan.com##.shadow-bg
+mi.com##div.section:nth-of-type(31)
+minsu.dianping.com##.aside__tool--app.aside__tool
+minsu.dianping.com##.lg-hide.b-cover
+minsu.dianping.com##.sm-hide.qr-container
+news.sina.com.cn##.clearfix.blk-wxfollow
+news.youxiake.com###loginTip
+pages.c-ctrip.com##.kkk
+qunar.com##.wx_phone_icon.last
+qyer.com##.wechat
+shenlanbao.com##.right_box1.mb20.attend-wx
+sina.com.cn##.common_s_app
+smzdm.com##.footer-right
+tmall.com###mobile
+tmall.com###J_TmallApkRateTab
+trade.tmall.com##.show-cross-btn
+universalbeijingresort.com##.download-box
+xinhuanet.com##.s-ewm
+xyk.cebbank.com##.r.App
+yaduo.com##.icon-app
+yaduo.com##.icon-life
+yaduo.com##.icon-trav
+yaduo.com##.icon-wx
+yaduo.com##.wechat-program
+ctrip.com###fl_wrap_default
+ctrip.com##.search-footer-container.footer-container
+smzdm.com##.qr-buy-container
+12306.cn##.fixed-right-menu > li.menu-item:nth-of-type(3)
+1hai.cn##.mobile-bannerbox
+1hai.cn##.mobile-bannericon
+58.com##.app.rightbtn
+58.com##.wx-xcx-qrcode
+airchina.com.cn##[href$="ttp://www.airchina.com.cn/cn/client_download.shtml"]
+alipay.com##.container__1JFhD
+amap.com###amap-result-banner
+amap.com###amapAppDownload
+amap.com###to_lushu
+auth.alipay.com###onlineService
+bababus.com##.guide_app
+bababus.com###suspend
+bestwehotel.com##.header-phone-container
+bilibili.com##.mobile-link-l
+bthhotels.com##.app_head_box
+bthhotels.com##.footerR_l
+bus.ctrip.com##.main_img
+bus.ctrip.com##.side_img
+coolapk.com##.apk_topba_code
+creditcard.ecitic.com##.dkkj_app
+creditcard.ecitic.com##.setting-adv
+ctrip.com##.pop_smallp
+ctrip.com##.service-notice-right
+ctrip.com##.set-phone.set-list > .nav-myctrip.person-text
+ctrip.com###u-ctripQR
+dianping.com##.big-pop
+dianping.com##.bottomLayer
+dianping.com##.fullScreenFlash
+dianping.com##.J-bonus
+dianping.com##.qrcode-aside
+dianping.com##.shop-owner.mod
+ditu.amap.com###mobileenterance_no_bg
+flights.ch.com##.m-side
+flights.ctrip.com###appd_wrap_default
+flights.ctrip.com###fl_open_wrap
+hotels.ctrip.com###J_MiniProgram
+hotels.ctrip.com###J_MiniProogram
+hotels.ctrip.com###J_qrcodes
+huazhu.com##.download-app-open
+huazhu.com##.imgbox-content.introl-item
+huazhu.com##.qrcode-img.Ltac.qrcodeapp
+item.taobao.com##.tb-qrcode-tool
+jd.com###J_mobile
+jdpay.com##.ui-modal-mask
+jdpay.com###promotionModal
+juneyaoair.com##.g-sliderinner
+juneyaoair.com##.mobileIcon
+lianjia.com,zu.ke.com,csair.com##.qr-code
+lianjia.com,zu.ke.com##.fix-bottom-wrap
+liepin.cn##.guider
+loongair.cn##.appGuide
+loongair.cn##.display-row-box.right > div.box:nth-of-type(3)
+loongair.cn##.display-row-box.right > div.box:nth-of-type(4)
+mafengwo.cn###banner-con-gloable
+map.baidu.com##.message-panel-open
+map.baidu.com##.poi-ads
+map.baidu.com###leadDownloadCard
+mi.com##.item-image.item
+my.ctrip.com###bottomBanner
+qunar.com##.mod-home-appfoot
+qunar.com##.phone_icon
+qunar.com##.q_header_app_logo
+qunar.com##.qrcode.btn-item
+qyer.com##.advertising
+qyer.com##div.section-gray.section:nth-of-type(3)
+secure.booking.com##.china-loyalty-dp-app-download-banner
+secure.booking.com##.gta-lightbox-trigger.gta-mb-multiple
+secure.booking.com##.modal-mask
+secure.booking.com##.modal-wrapper
+secure.booking.com##.myres-gtw-open
+smzdm.com##.download
+smzdm.com##.qrcode
+smzdm.com##.share_app_icon
+smzdm.com##.share_invitation
+smzdm.com###index-elevator > li:nth-of-type(2)
+smzdm.com###index-elevator > li:nth-of-type(3)
+taobao.com##.download_banner
+taobao.com##.J_TWeitaoHover.follow-mobile
+taobao.com##.qr
+taobao.com##.tbh-qr-wrapper
+taobao.com###J_Col_Main > div:nth-of-type(6)
+taobao.com###J_SiteFooter
+tianxun.com##.col_app
+tianxun.com##.pop_app
+tianxun.com##.pt10.side_box.ac
+tmall.com##.sn-mobile
+tmall.com##.tm-qrcode-icon
+tmall.com###J_Qrcode
+train.qunar.com##.qn-banner
+trains.ctrip.com##.erweima
+trains.ctrip.com##.gzh-box
+wq.jd.com###id-pcprompt-mask
+zhihu.com##.DownloadGuide-block--active.DownloadGuide-block.DownloadGuide.Card
+zuche.com##.zc-ban-new-app
+zuche.com###indexmovePopularize
+moseeker.com##.weixin-remind
+baidu.com##.leadDownloadCard
+baidu.com##.poiLeadDownloadCard
+zh.airbnb.com##._1395v5a
+ctrip.com##.bXQCwX.sc-jcEtbA
+ctrip.com##.pb80.train-flex.train-wrapper > .h5hide.train-right > .scan-qrcode
+lianjia.com##.content-guarantee
+
+! SEO, copyright notices and useless legal links of sites in PR-China
+12306.cn##.foot-code
+ctrip.com##.indices.mod
+flights.ctrip.com##.seo-links
+bbs.qyer.com##.bottom-seo-links
+qunar.com##.qunar-assist-hide.mod-home-seolink
+ctrip.com##.footer.mod
+ctrip.com##.copyright.mod
+mafengwo.cn###footer
+jandan.net###footer
+news.sohu.com##.area.footer
+
+!#if adguard_app_windows
+! Removing various popup annoyances (Requires adding the exes manually to the list of filtered programmes)
+! CyberLink PowerDVD 16 (PowerDVD•exe); CyberLink Ultra HD Blu-Ray Advisor (BD_Advisor•exe)
+||liveupdate.cyberlink.com/*CHANNEL=iSales
+! Sims 3 (TS3W•exe)
+||igs.thesims3.com/api/$app=TS3W.exe
+! NVIDIA App (NVIDIA App•exe and possibly nvcontainer•exe; attempts to remove various promo banners for people who just want to update their drivers, but it's much tricker to handle than first expected)
+!!!/^https://images\.nvidia\.com/content/GRD.*/[g-z].*$/$image,app=NVIDIA App.exe|nvcontainer.exe (Possibly causes driver download errors for incomprehensible reasons?)
+||images.nvidia.com/*-1920x620.$image,app=NVIDIA App.exe|nvcontainer.exe
+||images.nvidia.com/*-790x376-$image,app=NVIDIA App.exe|nvcontainer.exe
+||img.nvidiagrid.net/url^$image,app=NVIDIA App.exe|nvcontainer.exe
+/^https://images\.nvidia\.com/[abd-z0-9].*-1920x620\..*$/$image,app=NVIDIA App.exe|nvcontainer.exe
+! Dolby Access app (DolbyAccess•exe), removing ones that are not directly related to Dolby Atmos sound tests
+||dolby.com/globalassets/access/banners^$app=DolbyAccess.exe
+||dolby.com/contentassets/*_testimonial-$app=DolbyAccess.exe
+! Lоvеnse Rеmоte's PC app (Lovense_Remote•exe)
+||pc.vibemate.com/surfease/*homepage_banner$app=Lovense_Remote.exe
+! AOMEI Partition Assistant 10 (PartAssist•exe), sales prompts in the lower right of the screen even if the app is minimised
+||account.aomeitech.com/ini/popup/pa^$app=PartAssist.exe
+||aomeisoftware.com/popup/pa^$app=PartAssist.exe
+!+ NOT_OPTIMIZED
+||aomeisoftware.com/ini/recommend/pa/rec.html^$app=PartAssist.exe
+! MyTuner's ancient UWP Microsoft Store app on Windows 11; tracking and some (presumably futile) handling of the app's pretty old non-HTTPS resources.
+||google-analytics.com/collect^$app=MyTuner.Windows.exe
+||api.mytuner.mobi^$csp=upgrade-insecure-requests
+$csp=upgrade-insecure-requests,app=MyTuner.Windows.exe
+!#endif
+! AMD Ryzen Master: It's more convenient to go to its settings → "Don't show Adv. Banner" → Set it to "Off" (so that the button is colored red).

@@ -1,0 +1,71 @@
+﻿[Adblock Plus 3.13]
+! Title: 🦁 Dandelion Sprout's African Languages List
+! Version: 05May2023v6-Alpha
+! Expires: 4 days
+! Licence: https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
+! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
+! Description: Spun off from «Ad Removal List for Unusual Ads», as a result of not all African languages having newssites with high enough Alexa ranks to make it to AdGuard Base Filter's «Foreign» section.
+! ——— Also recommended for African users: ———
+! • EasyList
+! • AdGuard Base Filter
+! • uBlock Filters
+! • AdGuard French Filter
+! • Liste AR
+! • EasyList Portuguese (https://easylist-downloads.adblockplus.org/easylistportuguese.txt)
+! • EasyDutch (https://raw.githubusercontent.com/EasyDutch-uBO/EasyDutch/gh-pages/EasyDutch.txt)
+
+! ——— 🇲🇬 Malagasy ———
+! https://github.com/AdguardTeam/AdguardFilters/issues/145446
+###bann-airtel
+###airtelMlay
+
+! ——— 🇸🇴 Somali ———
+! (Somali-English dual sites; currently unclear if Somali-only newssites exist.)
+horseedmedia.net##.before-content
+
+! ——— 🇹🇿 🇰🇪 Swahili ———
+taifaleo.nation.co.ke##.text-center
+! https://github.com/AdguardTeam/AdguardFilters/issues/146134
+globalpublishers.co.tz##.adcontainer
+globalpublishers.co.tz##.widget_custom_html a[href="#"]
+globalpublishers.co.tz###custom_html-40
+globalpublishers.co.tz##.listing-item:has(> div.item-inner a[href*="-sloti-"])
+globalpublishers.co.tz##.listing > article:has(> div.item-inner a[href*="-kasino"])
+globalpublishers.co.tz##.listing > article:has(> div.item-inner a[href*="-chapride-"])
+mwanahalisionline.com##a[href*=meridianbet]
+mwanahalisionline.com##.jl_cgrid_layout:has(a[href*=meridianbet])
+mwanahalisionline.com##.elementor-widget-image
+jamhurimedia.co.tz##body > div[style^="text-align: center;"]
+
+! ——— 🇿🇦 Zulu ———
+ilanganews.co.za##.vc_single_image.wpb_wrapper
+ilanganews.co.za##.widget_media_image
+isolezwe.co.za##.advert-leaderboard-bot
+
+! ——— 🇪🇹 Amharic (አማርኛ) ———
+ethiopianreporter.com##.vc_widget_sidebar
+ethiopianreporter.com##style + .td-stretch-content:has(.td-a-rec)
+addisadmassnews.com###top-a
+addisadmassnews.com##.grid-v:has(a[href*="bit.ly"])
+ethiopiainsider.com##.td-pb-span4:has(#vid)
+
+! ——— 🇳🇬 🇧🇯 Yoruba ———
+alaroye.org##.widget_media_image
+alaroye.org#@#.navbar-ad-section
+
+! ——— 🇳🇬 🇳🇪 Hausa ———
+aminiya.ng##.ad-container
+hutudole.com##.widget_text:has-text(Click here)
+hutudole.com##.media_image-3
+apahausa.com.ng##.widget_text
+apahausa.com.ng##.sticky-sidebar > section[class$=" widget_block"]
+
+! ——— 🇷🇼 Kinyarwanda ———
+intyoza.com##.widget_media_image.widget_block
+
+! ——— 🇿🇦 Sotho ———
+seiponemadireng.co.za##.text-center.container
+seiponemadireng.co.za##.white:has(> script)
+seiponemadireng.co.za##.white:has(img[src*="-ad."])
+
+! TBD: Tigrinya, etc.
