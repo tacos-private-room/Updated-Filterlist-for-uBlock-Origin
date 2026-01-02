@@ -1,0 +1,8 @@
+﻿
+! Title: Conversion of AdGuard Services Lists — MailRU
+
+||imgsmail.ru^$all
+||mail.ru^$all
+||mycdn.me^$all
+
+

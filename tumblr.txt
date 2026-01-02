@@ -1,0 +1,6 @@
+﻿
+! Title: Conversion of AdGuard Services Lists — Tumblr
+
+||tumblr.com^$all
+
+

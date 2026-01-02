@@ -1,0 +1,9 @@
+﻿
+! Title: Conversion of AdGuard Services Lists — Plex
+
+||plexapp.com^$all
+||plex.bz^$all
+||plex.direct^$all
+||plex.tv^$all
+
+

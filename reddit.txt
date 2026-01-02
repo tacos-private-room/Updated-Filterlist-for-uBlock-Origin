@@ -1,0 +1,10 @@
+﻿
+! Title: Conversion of AdGuard Services Lists — Reddit
+
+||reddit.com^$all
+||redditstatic.com^$all
+||redditmail.com^$all
+||redditmedia.com^$all
+||redd.it^$all
+
+
